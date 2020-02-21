@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SignUp and Login</title>
+        <link rel="stylesheet" href="Login.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="main-content">
+            <ul>
+                <li><a href="F:\Web Development\DSC\Project\Blooddoantion.html" target="_blank">
+                    <i class="fa fa-home"></i> Home</a></li>
+                <li><i class="fa fa-info-circle"></i> About us</li>
+                <li><i class="fa fa-info-circle"></i> Donate</li>
+                <li><i class="fa fa-info-circle"></i> Practicing</li>
+                <li><i class="fa fa-info-circle"></i> Services</li>
+                <li><i class="fa fa-angellist"></i> Investers</li>
+                <li><a href="F:\Web Development\DSC\Project\Gallery\Gallery.html" target="_blank">
+                    <i class="fa fa-camera"></i> Gallery</a></li>
+                <li  class="active"><i class="fa fa-user-plus"></i> SignUp</li>
+                <li><i class="fa fa-phone"></i> Contact</li>
+            </ul>
+        </div>
+    
+        <div class="Login">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn">
+
+                    </div>
+                    <button type="button" class="toogle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toogle-btn" onclick="register()">Sign Up</button>
+                    
+                </div> 
+                <div class="social-icon">
+                    <img src="grapes.jpg">
+                    <img src="grapes.jpg">
+                    <img src="grapes.jpg">
+                    <img src="grapes.jpg">
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form> 
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="text" class="input-field" placeholder="Re-Enter Password" required>
+
+                    <input type="checkbox" class="check-box"><span>I agree to the terms and 
+                        conditions
+                    </span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>   
+            </div>
+            
+        </div>
+        <script>
+            var x=document.getElementById("login");
+            var y=document.getElementById("register");
+            var z=document.getElementById("btn");
+            
+            function register(){
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }
+            function login(){
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0";
+            }
+
+        </script>
+    </body>
+</html>
