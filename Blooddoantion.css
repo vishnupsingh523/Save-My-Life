@@ -1,0 +1,92 @@
+body{
+    background-image: url(life.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header-logo{
+    background-color: rgb(252, 45, 45);
+    height:60px;
+    color:#fff;
+    margin-top: -16px;
+    margin-left: -15px;
+}
+
+
+.header-logo h3{
+    float: left;
+    padding-left: 40px;
+}
+
+.header-logo li{
+    float:right;
+    padding:20px 10px 18px 10px;
+    list-style:none;
+}
+
+.header-list{
+    text-align: right;
+    font-family: cursive;
+}
+
+.header-list li:hover{
+    background-color: rgb(255, 105, 105);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-quotes-text {
+    color: #000000;
+    background-color: rgba(211, 204, 204, 0.719);
+    height: 320px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+.main-quotes-text h1{
+    padding:100px 50px 0px 50px;
+    text-align: center;
+    font-family: cursive;
+}
+.main-text h3{
+    padding-left: 1100px;
+    font-family:monospace;
+    font-style: italic;
+}
+
+.main-upcoming-events{
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: rgba(145, 181, 216, 0.952);
+    height: 800px;
+    
+}
+
+.main-upcoming-events img{
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+/*   .main-upcoming-events img , .eventname, .eventcontent{
+    float: left;
+}  */
+
+.eventcontent{
+      background-color: rgba(219, 217, 217, 0.623);
+      padding: 40px 40px;
+      color: rgb(5, 5, 5);
+      font-size:40px;
+      width: 800px;     
+     
+}
+.eventcontent span{
+    
+}
