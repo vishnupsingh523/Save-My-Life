@@ -1,92 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-image: url(life.jpg);
+    background-image: url(Gallery/Images/life3.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
 }
 
-
+/* Here is the styling of the menu tab */
 .header-logo{
-    background-color: rgb(252, 45, 45);
-    height:60px;
+    background-color: rgba(45, 49, 252, 0.507);
+    height: 78px;
+    width:100%;
+    position: fixed;
     color:#fff;
-    margin-top: -16px;
-    margin-left: -15px;
+    text-align: center;
 }
 
 
 .header-logo h3{
     float: left;
     padding-left: 40px;
+    padding-top: 20px;
+    font-size: 30px;
 }
 
+.header-logo ul{
+    margin-left: 700px;
+    font-family: cursive;
+}
 .header-logo li{
-    float:right;
-    padding:20px 10px 18px 10px;
+    float:left;
+    font-size: 20px;
+    padding: 25px 20px;
+    font-weight: bold;
     list-style:none;
 }
 
-.header-list{
-    text-align: right;
-    font-family: cursive;
-}
-
-.header-list li:hover{
-    background-color: rgb(255, 105, 105);
+.header-logo ul li:hover{
+    background-color: rgba(131, 139, 250, 0.541);
     cursor: pointer;
     border-radius: 5px;
 }
 
-.header-list a{
+.header-logo ul li a{
     text-decoration: none;
     color: #fff;
 }
 
+/* top QUOTES styling is done here */
+
+.main{
+    padding-top: 120px;
+}
 .main-quotes-text {
     color: #000000;
     background-color: rgba(211, 204, 204, 0.719);
-    height: 320px;
     border-radius: 20px;
-    margin-right: 8px;
+    padding: 0 0 70px 0;
+    margin: 0 200px;
 }
 .main-quotes-text h1{
-    padding:100px 50px 0px 50px;
+    padding:50px;
+    padding-bottom: 0px;
     text-align: center;
     font-family: cursive;
 }
-.main-text h3{
-    padding-left: 1100px;
+.main-quotes-text h3{
+    float:right;
+    margin-right: 100px;
+    font-size: 25px;
     font-family:monospace;
     font-style: italic;
 }
 
+/* Styling of the events */
+
 .main-upcoming-events{
-    margin-top: 40px;
-    margin-left: 50px;
-    background-color: rgba(145, 181, 216, 0.952);
-    height: 800px;
-    
+    margin: 50px 50px;
 }
-
 .main-upcoming-events img{
-    border-radius: 30px;
-    padding-top: 30px;
-    padding-left: 20px;
-    border-radius: 30px;
-}
-
-/*   .main-upcoming-events img , .eventname, .eventcontent{
+    height: 30%;
+    width: 30%;
     float: left;
-}  */
-
-.eventcontent{
-      background-color: rgba(219, 217, 217, 0.623);
-      padding: 40px 40px;
-      color: rgb(5, 5, 5);
-      font-size:40px;
-      width: 800px;     
-     
 }
-.eventcontent span{
-    
+.main-upcoming-events p{
+    font-size: 20px;
+    padding: 50px;
+    margin-left: 500px;
+    background-color: rgba(158, 158, 158, 0.575);
+}
+.main-upcoming-events span{
+    font-size: 40px;
+    font-weight: bold;
 }
